@@ -1,0 +1,31 @@
+.confirmation-container {
+    max-width: 600px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+.confirmation-container h1 {
+    font-size: 2rem;
+    color: #27ae60;
+    margin-bottom: 20px;
+}
+
+.confirmation-container p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.back-to-shop {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-to-shop:hover {
+    background-color: #2980b9;
+}

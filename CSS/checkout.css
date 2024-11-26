@@ -1,0 +1,32 @@
+.checkout-summary {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+.checkout-summary ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.checkout-summary ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.checkout-summary h3 {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #e74c3c;
+}
+
+.checkout-summary button {
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

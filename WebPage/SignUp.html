@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up & Login</title>
+    <link rel="stylesheet" href="../CSS/auth.css">
+</head>
+<body>
+    
+
+    
+    <div class="auth-container" id="signUpForm">
+        <div class="auth-form">
+            <h2>Sign Up</h2>
+            <form action="signup.php" method="POST">
+                <div class="input-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="input-group">
+                    <label for="email-signup">Email:</label>
+                    <input type="email" id="email-signup" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="password-signup">Password:</label>
+                    <input type="password" id="password-signup" name="password" required>
+                </div>
+                <div class="input-group">
+                    <label for="confirm-password">Confirm Password:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </div>
+                <div class="input-group">
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address" required>
+                </div>
+                <div class="input-group">
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city" required>
+                </div>
+                <div class="input-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+                </div>
+                <div class="input-group">
+                    <button type="submit">Sign Up</button>
+                </div>
+                <p class="switch-form">Already have an account? <a href="login.php" id="showLogin">Login</a></p>
+            </form>
+        </div>
+    </div>
+
+    <div id="usernameExistsModal" class="modal hide">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">×</span>
+            <p>Username already exists! Please choose a different username.</p>
+        </div>
+    </div>
+
+
+    <script src="../JS_Files/signup.js"></script>
+</body>
+</html>
